@@ -1,0 +1,170 @@
+[
+  {
+    "id": "1068",
+    "name": "Weird Algorithm",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/weird-algorithm",
+    "order": 1
+  },
+  {
+    "id": "1083",
+    "name": "Missing Number",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/missing-number",
+    "order": 2
+  },
+  {
+    "id": "1069",
+    "name": "Repetitions",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/repetitions",
+    "order": 3
+  },
+  {
+    "id": "1094",
+    "name": "Increasing Array",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/increasing-array",
+    "order": 4
+  },
+  {
+    "id": "1070",
+    "name": "Permutations",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/permutations",
+    "order": 5
+  },
+  {
+    "id": "1071",
+    "name": "Number Spiral",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/number-spiral",
+    "order": 6
+  },
+  {
+    "id": "1072",
+    "name": "Two Knights",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/two-knights",
+    "order": 7
+  },
+  {
+    "id": "1092",
+    "name": "Two Sets",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/two-sets",
+    "order": 8
+  },
+  {
+    "id": "1617",
+    "name": "Bit Strings",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/bit-strings",
+    "order": 9
+  },
+  {
+    "id": "1618",
+    "name": "Trailing Zeros",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/trailing-zeros",
+    "order": 10
+  },
+  {
+    "id": "1754",
+    "name": "Coin Piles",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/coin-piles",
+    "order": 11
+  },
+  {
+    "id": "1755",
+    "name": "Palindrome Reorder",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/palindrome-reorder",
+    "order": 12
+  },
+  {
+    "id": "2205",
+    "name": "Gray Code",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/gray-code",
+    "order": 13
+  },
+  {
+    "id": "2165",
+    "name": "Tower of Hanoi",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/tower-of-hanoi",
+    "order": 14
+  },
+  {
+    "id": "1622",
+    "name": "Creating Strings",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/creating-strings",
+    "order": 15
+  },
+  {
+    "id": "1623",
+    "name": "Apple Division",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/apple-division",
+    "order": 16
+  },
+  {
+    "id": "1624",
+    "name": "Chessboard and Queens",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/chessboard-and-queens",
+    "order": 17
+  },
+  {
+    "id": "3399",
+    "name": "Raab Game I",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/raab-game-i",
+    "order": 18
+  },
+  {
+    "id": "3419",
+    "name": "Mex Grid Construction",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/mex-grid-construction",
+    "order": 19
+  },
+  {
+    "id": "3217",
+    "name": "Knight Moves Grid",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/knight-moves-grid",
+    "order": 20
+  },
+  {
+    "id": "3311",
+    "name": "Grid Coloring I",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/grid-coloring-i",
+    "order": 21
+  },
+  {
+    "id": "2431",
+    "name": "Digit Queries",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/digit-queries",
+    "order": 22
+  },
+  {
+    "id": "1743",
+    "name": "String Reorder",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/string-reorder",
+    "order": 23
+  },
+  {
+    "id": "1625",
+    "name": "Grid Path Description",
+    "category": "Introductory Problems",
+    "path": "problems/introductory-problems/grid-path-description",
+    "order": 24
+  }
+]

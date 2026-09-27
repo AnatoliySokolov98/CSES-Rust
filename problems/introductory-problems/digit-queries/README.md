@@ -1,0 +1,7 @@
+# Digit Queries
+
+Category: Introductory Problems
+
+[CSES task 2431](https://cses.fi/problemset/task/2431/)
+
+Public samples are in `tests/`. Use `input.txt` for scratch input.
