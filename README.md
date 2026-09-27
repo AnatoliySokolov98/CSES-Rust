@@ -1,6 +1,6 @@
 # CSES Rust solutions
 
-Introductory problems from [CSES](https://cses.fi/problemset/), with public sample inputs and outputs. Requires Rust (`rustc`, Cargo) and Python 3; no Python packages are needed.
+All 400 problems across 18 categories from [CSES](https://cses.fi/problemset/), with public sample inputs and outputs. Requires Rust (`rustc`, Cargo) and Python 3; no Python packages are needed.
 
 ```sh
 ./cses list
@@ -11,7 +11,7 @@ Introductory problems from [CSES](https://cses.fi/problemset/), with public samp
 ./cses submit weird-algorithm                # generate and compile; never uploads
 ```
 
-Edit `problems/introductory-problems/<name>/solution.rs`. Each file defines:
+Edit `problems/<category>/<name>/solution.rs`. Each file defines:
 
 ```rust
 fn solve(it: &mut std::str::SplitWhitespace<'_>, out: &mut impl std::io::Write) {
@@ -26,7 +26,7 @@ Each command assembles the same standalone source in `target/submissions/<name>.
 
 Each problem has an empty scratch `input.txt` (Weird Algorithm preserves the existing input), a task link in `README.md`, and `tests/sample-N.in` / `sample-N.out`. Add your own matching `.in` / `.out` pairs. The test command ignores whitespace differences, reports mismatches and runtime failures, and returns a nonzero status on failure. Execution defaults to a five-second timeout; override with `--timeout 10`. This is a sample checker, not the CSES judge: constructive problems can have multiple valid answers that differ from the saved output.
 
-Unsolved files contain only a `solve` stub with `todo!()`, which fails explicitly when run. Your existing Weird Algorithm solution is preserved. `cargo run < input.txt` still runs Weird Algorithm for convenience; `cargo test` checks shared macros. Use `./cses` to select other problems.
+Unsolved files contain only a `solve` stub with `todo!()`, which fails explicitly when run. `cargo run < input.txt` still runs Weird Algorithm for convenience; `cargo test --bin cses` checks shared macros. Use `./cses` to select other problems.
 
 To add a problem or category, create its folder with `solution.rs`, `input.txt`, and test pairs, then add its ID, name, category, path, and order to `problems/index.json`. Run `./cses sync` after adding index entries to create their Cargo targets. The commands discover problems from that index.
 
@@ -39,3 +39,5 @@ cargo run --bin missing-number < problems/introductory-problems/missing-number/i
 ```
 
 `cargo run` without `--bin` retains the original Weird Algorithm default. Submission generation continues to assemble standalone files directly from the shared sources and solution, without including the Cargo wrappers.
+
+Six tasks in Interactive Problems use `src/interactive_runner.rs` and a `solve(input: &mut impl std::io::BufRead, out: &mut impl std::io::Write)` signature. Read replies incrementally (for example with `input.read_line(...)`) and call `out.flush()` after each query; the normal `read!` macro still needs a token iterator. Their examples are saved as `tests/example-transcript.txt`, not misleading input/output pairs. `./cses test` rejects interactive tasks; run with `--input -` and a live interactor, or generate a standalone file with `submit`. Entries with `"interactive": true` select this runner automatically.
