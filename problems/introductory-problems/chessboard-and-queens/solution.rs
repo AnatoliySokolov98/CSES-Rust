@@ -7,7 +7,7 @@ fn solve(it: &mut std::str::SplitWhitespace<'_>, out: &mut impl std::io::Write) 
     let mut cols = vec![false; 8];
     let mut left_diag = vec![false; 16];
     let mut right_diag = vec![false; 16];
-    let mut res = backtrack(0, &mut cols, &mut left_diag, &mut right_diag, &board);
+    let res = backtrack(0, &mut cols, &mut left_diag, &mut right_diag, &board);
     wln!(out, "{}", res);
 }
 
